@@ -1,5 +1,133 @@
 .App {
+    
+    font-size: 20px;
   text-align: center;
+}
+.header{
+  font-family: fantasy;
+  color: rgb(199, 211, 174);
+  letter-spacing: 9px;
+  font-size: 50px;
+}
+.historyhead {
+  font-size: 18px;
+  margin-top: 60px;
+  margin-bottom: -50px;
+/* font-family: Harrington; */
+font-family: Papyrus;
+}
+body{
+  /* background: #6441A5;
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
+    background: linear-gradient(to right, #2a0845, #6441A5); */
+
+    /* background: #414d0b;
+      
+      background: -webkit-linear-gradient(to right, #727a17, #414d0b);
+      
+      background: linear-gradient(to right, #727a17, #414d0b); */
+
+      /* background: #e43a15;
+        
+        background: -webkit-linear-gradient(to right, #e65245, #e43a15);
+        
+        background: linear-gradient(to right, #e65245, #e43a15); */
+
+        background: #5f2c82;
+          
+          background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);
+          
+          background: linear-gradient(to right, #49a09d, #5f2c82);
+          
+        
+      
+   
+    color: aliceblue;
+}
+
+.action-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+  text-align: center;
+}
+.action-btn button{
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: cursive;
+  color: aliceblue;
+  background-color: rgb(150, 26, 74);
+  border: none;
+  outline: none;
+  &:hover{
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  border-radius: 5px;
+
+}
+
+.user-btn{
+  margin: 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.user-btn div{
+  margin-top: 25px;
+  font-size: 30px;
+}
+
+
+.user-btn button{
+margin-top: 30px;
+background-color: rgb(22, 137, 141);
+color: aliceblue;
+width: 80px;
+height: 40px;
+border: none;
+outline: none;
+font-size: 20px;
+font-weight: bold;
+border-radius: 5px;
+&:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+}
+
+.history{
+ 
+  width: 360px;
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid rgb(97, 55, 7);
+  margin: 60px auto;
+  font-size: 18px;
+  &::-webkit-scrollbar{
+    display: none;
+  }
+  background-color: rgb(228, 212, 229);
+  color: black;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+  
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 110px;
+  padding: 5px;
 }
 
 .App-logo {
